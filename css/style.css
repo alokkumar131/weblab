@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.display{
+    font-family: 'Lobster Two', cursive;
+}
+.navbar{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+#home-section{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section .home-inner{
+    padding-top: 150px;
+}
+#home-section .home-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+
+}
+.fa-hand-point-right{
+    color: green;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
